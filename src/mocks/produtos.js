@@ -4,14 +4,14 @@ export const produtos = [
     nome: "Camiseta conforto",
     descricao:
       "Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.",
-    preco: "R$ 70,00",
+    preco: " 40,00 €",
     cores: [
       {
         nome: "Mostarda",
         hexa: "#b39628",
       },
     ],
-    tamanho: ["P", "PP", "M", "G", "GG"],
+    tamanho: ["S", "XS", "M", "L", "XL"],
     imageSrc:
       "https://raw.githubusercontent.com/gss-patricia/meteora-assets/main/produtos/camiseta-conforto.jpeg",
   },
@@ -20,14 +20,14 @@ export const produtos = [
     nome: "Calça Alfaiataria",
     descricao:
       "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
-    preco: "R$ 180,00",
+    preco: " 120,00 €",
     cores: [
       {
         nome: "Creme",
         hexa: "#ebe2c2",
       },
     ],
-    tamanho: ["P", "PP", "M", "G", "GG"],
+    tamanho: ["S", "XS", "M", "L", "XL"],
     imageSrc:
       "https://raw.githubusercontent.com/gss-patricia/meteora-assets/main/produtos/calca-alfaitaria.jpeg",
   },
@@ -36,7 +36,7 @@ export const produtos = [
     nome: "Tênis Chunky",
     descricao:
       "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
-    preco: "R$ 50,00",
+    preco: " 50,00 €",
     cores: [
       {
         nome: "Branco",
@@ -52,7 +52,7 @@ export const produtos = [
     nome: "Jaqueta Jeans",
     descricao:
       "Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
-    preco: "R$ 150,00",
+    preco: " 150,00 €",
     cores: [
       {
         nome: "Azul",
@@ -67,7 +67,7 @@ export const produtos = [
         hexa: "#000000",
       },
     ],
-    tamanho: ["P", "PP", "M", "G", "GG"],
+    tamanho: ["S", "XS", "M", "L", "XL"],
     imageSrc:
       "https://raw.githubusercontent.com/gss-patricia/meteora-assets/main/produtos/jaqueta-jeans.jpeg",
   },
@@ -75,7 +75,7 @@ export const produtos = [
     id: 5,
     nome: "Óculos Redondo",
     descricao: "Armação metálica em grafite com lentes arredondadas. Sem erro!",
-    preco: "R$ 120,00",
+    preco: " 120,00 €",
     cores: [
       {
         nome: "OffWhite",
@@ -94,7 +94,7 @@ export const produtos = [
     nome: "Bolsa coringa",
     descricao:
       "Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
-    preco: "R$ 120,00",
+    preco: " 120,00 €",
     cores: [
       {
         nome: "Castanho",

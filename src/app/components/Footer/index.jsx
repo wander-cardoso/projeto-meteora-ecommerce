@@ -21,13 +21,13 @@ export const Footer = () => {
       <div className={styles.footerInner}>
         <FooterItem
           iconName="diamond"
-          title="PAGUE PELO PIX"
-          description="Ganhe 5% OFF em pagamentos via PIX"
+          title="PAGUE COM MBWAY"
+          description="Pague de forma segura e prática."
         />
         <FooterItem
           iconName="repeat"
           title="TROCA GRÁTIS"
-          description="Fique livre para trocar em até 30 dias."
+          description="Fique livre para trocar até 30 dias."
         />
         <FooterItem
           iconName="flower"

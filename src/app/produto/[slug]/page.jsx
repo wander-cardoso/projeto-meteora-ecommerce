@@ -3,7 +3,7 @@ import Produto from "@/app/components/Produto";
 
 async function getProduto(slug) {
   const res = await fetch(
-    "https://api.npoint.io/b5ea65a6b78807014009/produtos"
+    "https://api.npoint.io/d787e12e7ee2f6cb7267/produtos"
   );
 
   const produtos = await res.json();
@@ -25,7 +25,7 @@ export default async function ProdutoPage({ params }) {
 
 export async function generateStaticParams() {
   const res = await fetch(
-    "https://api.npoint.io/b5ea65a6b78807014009/produtos"
+    "https://api.npoint.io/d787e12e7ee2f6cb7267/produtos"
   );
 
   const produtos = await res.json();
