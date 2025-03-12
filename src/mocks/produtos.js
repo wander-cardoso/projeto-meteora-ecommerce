@@ -4,7 +4,7 @@ export const produtos = [
     nome: "Camiseta conforto",
     descricao:
       "Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.",
-    preco: "70,00 €",
+    preco: "R$ 70,00",
     cores: [
       {
         nome: "Mostarda",
@@ -20,7 +20,7 @@ export const produtos = [
     nome: "Calça Alfaiataria",
     descricao:
       "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
-    preco: "180,00 €",
+    preco: "R$ 180,00",
     cores: [
       {
         nome: "Creme",
@@ -36,7 +36,7 @@ export const produtos = [
     nome: "Tênis Chunky",
     descricao:
       "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
-    preco: "50,00 €",
+    preco: "R$ 50,00",
     cores: [
       {
         nome: "Branco",
@@ -52,7 +52,7 @@ export const produtos = [
     nome: "Jaqueta Jeans",
     descricao:
       "Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
-    preco: "150,00 €",
+    preco: "R$ 150,00",
     cores: [
       {
         nome: "Azul",
@@ -75,7 +75,7 @@ export const produtos = [
     id: 5,
     nome: "Óculos Redondo",
     descricao: "Armação metálica em grafite com lentes arredondadas. Sem erro!",
-    preco: "120,00 €",
+    preco: "R$ 120,00",
     cores: [
       {
         nome: "OffWhite",
@@ -94,7 +94,7 @@ export const produtos = [
     nome: "Bolsa coringa",
     descricao:
       "Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
-    preco: "120,00 €",
+    preco: "R$ 120,00",
     cores: [
       {
         nome: "Castanho",

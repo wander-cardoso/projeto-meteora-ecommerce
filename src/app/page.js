@@ -4,21 +4,21 @@ import { Produtos } from "./components/Produtos";
 
 async function fetchProdutosApi() {
   const res = await fetch(
-    "https://api.npoint.io/cfc8bfaf68d2d2f9efbf/produtos"
+    "https://api.npoint.io/b5ea65a6b78807014009/produtos"
   );
 
   if (!res.ok) {
-    throw new Error("Não foi possível obter os dados!");
+    throw new Error("Não foi possivel obter os dados");
   }
 
   const produtos = await res.json();
 
   return produtos;
 }
-/* 
+
 async function fetchCategoriasApi() {
   const res = await fetch(
-    "https://api.npoint.io/cfc8bfaf68d2d2f9efbf"
+    "https://api.npoint.io/d19f1460d98b31470eb8/categorias"
   );
 
   if (!res.ok) {
@@ -28,16 +28,16 @@ async function fetchCategoriasApi() {
   const produtos = await res.json();
 
   return produtos;
-} */
+}
 
 export default async function Home() {
   const produtos = await fetchProdutosApi();
-/*   const categorias = await fetchCategoriasApi(); */
+  const categorias = await fetchCategoriasApi();
 
   return (
     <>
       <main className={styles.main}>
-{/*         <Categorias categorias={categorias} /> */}
+        <Categorias categorias={categorias} />
         <Produtos produtos={produtos} />
       </main>
     </>

@@ -4,8 +4,6 @@ import styles from "./produtos.module.css";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
-
-
 export const Produtos = ({ produtos }) => {
   const router = useRouter();
 
