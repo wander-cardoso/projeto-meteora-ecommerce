@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "Meteora",
-  description: "A loja virtual mais rápida do universo e região.",
+  description: "A loja virtual mais rápida do universo.",
 };
 
 export default function RootLayout({ children }) {
