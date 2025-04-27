@@ -1,3 +1,4 @@
 {
-  "liveServer.settings.multiRootWorkspaceName": "projeto-meteora-ecommerce"
+  "liveServer.settings.multiRootWorkspaceName": "projeto-meteora-ecommerce",
+  "git.ignoreLimitWarning": true
 }

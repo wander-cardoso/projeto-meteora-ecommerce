@@ -20,6 +20,7 @@ export const Footer = () => {
       <h3 className={styles.footerHead}>Conheça todas as nossas facilidades</h3>
       <div className={styles.footerInner}>
         <FooterItem
+        
           iconName="diamond"
           title="PAGUE COM MBWAY"
           description="Pague de forma segura e prática."

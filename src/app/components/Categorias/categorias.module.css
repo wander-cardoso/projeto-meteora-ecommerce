@@ -14,6 +14,30 @@
   padding: 20px;
 }
 
+/* Responsividade para a container */
+@media (max-width: 1200px) {
+  .container {
+    gap: 20px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    gap: 15px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    gap: 10px;
+    padding: 5px;
+    flex-direction: column;
+  }
+}
+
+/* Card Responsivo */
 .card {
   background-color: #daff01;
   text-align: center;
@@ -22,6 +46,30 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Ajustando os cards conforme o tamanho da tela */
+@media (max-width: 1024px) {
+  .card {
+    width: 140px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 120px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .imagemContainer {
@@ -43,4 +91,20 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  transition: font-size 0.3s ease;
+}
+
+/* Responsividade para o título */
+@media (max-width: 768px) {
+  .title {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
 }
